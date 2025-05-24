@@ -17,5 +17,6 @@ def send_heh(message):
 @bot.message_handler(commands=['meaw'])
 def send_meaw(message):
     bot.reply_to(message,'Мяу')
+    
 # Запуск бота
 bot.polling()
